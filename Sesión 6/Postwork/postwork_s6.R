@@ -1,12 +1,12 @@
 # Postwork Sesión 6 
 library(dplyr)
 
-# Importamos los datos desde el link en github
+# Importamos los datos desde el link en github match.data.csv a R y realiza lo siguiente:
 url.match.data <- "https://raw.githubusercontent.com/beduExpert/Programacion-con-R-Santander/master/Sesion-06/Postwork/match.data.csv"
 match.data <- read.csv(url.match.data)
 
 # Verificamos los datos que vienen del csv.
-str(match.data)
+str ( match.data ) # analizamos los tipos de datos del DF y los modificamos para poder manipularlos
 
 # Convertimos el tipo fecha
 md <- mutate(match.data, date = as.Date(date, "%Y-%m-%d")) 
