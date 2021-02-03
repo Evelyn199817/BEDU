@@ -1,6 +1,9 @@
 "Ahora investigar?s la dependencia o independencia del n?mero de goles anotados por el equipo de casa
 y el n?mero de goles anotados por el equipo visitante mediante un procedimiento denominado bootstrap
 revisa bibliograf?a en internet para que tengas nociones de este desarrollo."
+
+#-------------------------------POSTWORK4 EN EQUIPO----------------------
+
 library(dplyr)
 
 uliga1.1920 = 'https://www.football-data.co.uk/mmz4281/1920/SP1.csv'
